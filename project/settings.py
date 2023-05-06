@@ -38,9 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webapp.apps.WebappConfig',
-    #"widget_tweaks",
-    "dsfr",
-    "yourApp"
+    'widget_tweaks',
+    'dsfr',
+    'yourApp'
 ]
 
 MIDDLEWARE = [
