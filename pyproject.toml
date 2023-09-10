@@ -7,7 +7,7 @@ authors = ["okputu julius <juliusstan10@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-gunicorn
+gunicorn = "^21.2.0"
 
 [tool.poetry.dev-dependencies]
 
