@@ -8,7 +8,8 @@ services:
     env: python
     region: frankfurt
     buildCommand: "./build.sh"
-    startCommand: "gunicorn core.wsgi:application"
+    #startCommand: "gunicorn core.wsgi:application"
+    startCommand: "gunicorn --chdir ./todo_app.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
