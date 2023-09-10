@@ -3,7 +3,7 @@ databases:
 
 services:
   - type: web
-    name: berry-service
+    name: djartaux
     plan: free
     env: python
     region: frankfurt
