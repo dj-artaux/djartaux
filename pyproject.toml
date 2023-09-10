@@ -6,7 +6,7 @@ description = ""
 authors = ["okputu julius <juliusstan10@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.8.1"
 gunicorn = "^21.2.0"
 importlib-metadata = "^6.8.0"
 
